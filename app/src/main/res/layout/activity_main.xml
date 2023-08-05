@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNPIRE COUNT"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BALLS"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/bttn_balls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click_balls"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STRIKES"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/bttn_strikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click_strikes"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OUTS"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/bttn_outs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click_outs"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INNINGS"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/bttn_innings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click_innings"
+        android:text="0"
+        android:layout_gravity="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bttn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_weight="1"
+        android:text="RESET"
+        android:onClick="click_reset"
+        android:textSize="24sp" />
+
+</LinearLayout>
